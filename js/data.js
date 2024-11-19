@@ -5,3 +5,18 @@ const carousel = [
         description: 'Some representative placeholder content for the first slide.',
     },
 ]
+
+const servicios = [
+    {
+        title: 'biblioteca',
+    },
+    {
+        title: 'biblioteca',
+    },
+    {
+        title: 'biblioteca',
+    },
+    {
+        title: 'biblioteca',
+    },
+]

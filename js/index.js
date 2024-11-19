@@ -2,6 +2,10 @@ $(document).ready(function () {
     if ($("#carousel-container")) {
         fillCarousel(carousel)
     }
+
+    if ($("#servicios-container")) {
+        fillServicios(servicios)
+    }
 });
 
 function fillCarousel(carousel) {
@@ -19,5 +23,16 @@ function fillCarousel(carousel) {
             </div>    
         `)
         console.log(slider.title)
+    });
+}
+
+function fillServicios(servicios) {
+    servicios.forEach((servicio, index) => {
+        $("#servicios-container .row").append(`
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex flex-column gap-4 align-items-center">
+                <img class="rounded-circle" src="./img/services/${servicio.title}.jpg" width="250" alt="biblioteca">
+                <h5 class="txt-main fw-bold">${servicio.title.toUpperCase()}</h5>
+            </div>     
+        `)
     });
 }
