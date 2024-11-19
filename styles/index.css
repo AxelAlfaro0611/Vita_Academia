@@ -1,5 +1,6 @@
 :root {
     --main: #056f05;
+    --main-hover: #0a8f0a;
     --second: #ffff5c;
 }
 
@@ -18,12 +19,13 @@
     color: var(--second);
 }
 
-.navbar-nav a {
-    text-transform: uppercase;
+.btn-main{
+    background-color: var(--main);
+    color: var(--second);
     font-weight: bold;
-    transition: all ease-in-out .1s;
-    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    padding: .5rem 3rem;
 }
-.navbar-nav a:hover {
-    border-bottom: 1px solid var(--second);
+.btn-main:hover {
+    background-color: var(--main-hover);
+    color: var(--second);
 }

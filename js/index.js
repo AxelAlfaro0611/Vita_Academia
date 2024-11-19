@@ -16,10 +16,7 @@ function fillCarousel(carousel) {
         $("#carousel .carousel-inner").append(`
             <div class="carousel-item ${index===0 ? 'active' : ''}">
                 <img src="./img/carousel/${slider.img}" class="d-block w-100" alt="${slider.title}">
-                <div class="carousel-caption d-none d-md-block bg-main">
-                    <h5>${slider.title}</h5>
-                    <p>${slider.description}</p>
-                </div>
+
             </div>    
         `)
         console.log(slider.title)
