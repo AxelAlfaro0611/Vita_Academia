@@ -1,0 +1,29 @@
+:root {
+    --main: #056f05;
+    --second: #ffff5c;
+}
+
+.bg-main {
+    background-color: var(--main);
+}
+.bg-second {
+    background-color: var(--second);
+}
+
+
+.txt-main, .link-main, .link-main:hover {
+    color: var(--main);
+}
+.txt-second, .link-second, .link-second:hover {
+    color: var(--second);
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all ease-in-out .1s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.navbar-nav a:hover {
+    border-bottom: 1px solid var(--second);
+}
