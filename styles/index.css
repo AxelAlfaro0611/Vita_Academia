@@ -2,6 +2,7 @@
     --main: #056f05;
     --main-hover: #0a8f0a;
     --second: #ffff5c;
+    --second-soft: #ffffe2;
 }
 
 .bg-main {
@@ -9,6 +10,9 @@
 }
 .bg-second {
     background-color: var(--second);
+}
+.bg-second-soft {
+    background-color: var(--second-soft);
 }
 
 
@@ -28,4 +32,10 @@
 .btn-main:hover {
     background-color: var(--main-hover);
     color: var(--second);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
