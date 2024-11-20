@@ -5,6 +5,10 @@
     --second-soft: #ffffe2;
 }
 
+* {
+    font-family: "Lexend", serif !important;
+}
+
 .bg-main {
     background-color: var(--main);
 }
