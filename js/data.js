@@ -12,12 +12,9 @@ const servicios = [
         title: 'biblioteca',
     },
     {
-        title: 'biblioteca',
+        title: 'pizarra_interactiva',
     },
     {
-        title: 'biblioteca',
-    },
-    {
-        title: 'biblioteca',
+        title: 'aula_virtual',
     },
 ]
