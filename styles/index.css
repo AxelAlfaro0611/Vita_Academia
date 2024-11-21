@@ -1,8 +1,11 @@
 :root {
-    --main: #056f05;
-    --main-hover: #0a8f0a;
-    --second: #ffff5c;
-    --second-soft: #ffffe2;
+    /* --main: #056f05; */
+    --main: rgb(48, 56, 95);
+    --main-hover: rgb(41, 46, 77);
+    /* --second: #ffff5c; */
+    --second: rgb(5, 208, 222);
+    /* --second-soft: #ffffe2; */
+    --second-soft: rgb(206, 252, 255);
 }
 
 .bg-main {
