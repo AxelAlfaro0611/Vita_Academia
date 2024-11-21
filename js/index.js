@@ -11,15 +11,14 @@ $(document).ready(function () {
 function fillCarousel(carousel) {
     carousel.forEach((slider, index) => {
         $("#carousel .carousel-indicators").append(`
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="${index}" class="active" aria-current="true" aria-label="Slide ${index+1}"></button>            
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="${index}" class="${index===0?'active':''}" aria-current="${index===0}" aria-label="Slide ${index+1}"></button>            
         `)
         $("#carousel .carousel-inner").append(`
             <div class="carousel-item ${index===0 ? 'active' : ''}">
-                <img src="./img/carousel/${slider.img}" class="d-block w-100" alt="${slider.title}">
+                <img src="./img/carousel/${slider.img}.png" class="d-block w-100" alt="${slider.title}">
 
             </div>    
         `)
-        console.log(slider.title)
     });
 }
 
