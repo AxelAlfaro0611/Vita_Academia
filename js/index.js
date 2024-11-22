@@ -15,7 +15,7 @@ function fillCarousel(carousel) {
         `)
         $("#carousel .carousel-inner").append(`
             <div class="carousel-item ${index===0 ? 'active' : ''}">
-                <img src="./img/carousel/${slider.img}.png" class="d-block w-100" alt="${slider.title}">
+                <img src="/img/carousel/${slider.img}.png" class="d-block w-100" alt="${slider.title}">
             </div>    
         `)
     });
@@ -25,7 +25,7 @@ function fillServicios(servicios) {
     servicios.forEach((servicio, index) => {
         $("#servicios-container .row").append(`
             <div class="col-sm-12 col-md-6 p-4 col-lg-3 d-flex flex-column gap-4 justify-content-center align-items-center">
-                <img class="rounded-circle w-100" src="./img/services/${servicio.title}.png" alt="biblioteca">
+                <img class="rounded-circle w-100" src="/img/services/${servicio.title}.png" alt="biblioteca">
                 <h5 class="txt-main text-center fw-bold">${servicio.title.toUpperCase().replace(/_/g, ' ')}</h5>
             </div>     
         `)
