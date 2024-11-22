@@ -17,4 +17,7 @@ const servicios = [
     {
         title: 'aula_virtual',
     },
+    {
+        title: 'aula_virtual',
+    },
 ]
