@@ -6,6 +6,11 @@
     --second: rgb(5, 208, 222);
     /* --second-soft: #ffffe2; */
     --second-soft: rgb(206, 252, 255);
+
+    --unmsm: rgb(245, 181, 2);
+    --unfv: rgb(242, 111, 41);
+    --uni: rgb(128, 4, 4);
+    --unalm: rgb(68, 143, 92);
 }
 
 .bg-main {
@@ -16,6 +21,20 @@
 }
 .bg-second-soft {
     background-color: var(--second-soft);
+}
+
+
+.bg-unmsm {
+    background-color: var(--unmsm);
+}
+.bg-unfv {
+    background-color: var(--unfv);
+}
+.bg-uni {
+    background-color: var(--uni);
+}
+.bg-unalm {
+    background-color: var(--unalm);
 }
 
 
