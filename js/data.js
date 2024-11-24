@@ -43,10 +43,19 @@ const universidades = {
         "Agraria",
         "Universidad Nacional Agraria la Molina"
     ],
+    "particulares" : [
+        "Particulares",
+        "Universidades particulares"
+    ],
+    "escolares" : [
+        "Escolares",
+        "Colegios del Perú"
+    ],
 }
 
 const arreglo_ciclos = [
     {
+        tipo: 'publica',
         universidades: [
             "unmsm",
         ],
@@ -60,6 +69,7 @@ const arreglo_ciclos = [
         ]
     },
     {
+        tipo: 'publica',
         universidades: [
             "unfv",
         ],
@@ -73,6 +83,7 @@ const arreglo_ciclos = [
         ]
     },
     {
+        tipo: 'publica',
         universidades: [
             "uni",
             "unac",
@@ -87,6 +98,7 @@ const arreglo_ciclos = [
         ]
     },
     {
+        tipo: 'publica',
         universidades: [
             "unalm",
         ],
@@ -96,6 +108,34 @@ const arreglo_ciclos = [
             },
             {
                 tipo: "repaso",
+            },
+        ]
+    },
+    {
+        tipo: 'particular',
+        universidades: [
+            "particulares",
+        ],
+        ciclos: [
+            {
+                tipo: "Verano PUCP",
+            },
+            {
+                tipo: "Repaso PUCP",
+            },
+        ]
+    },
+    {
+        tipo: 'escolar',
+        universidades: [
+            "escolares",
+        ],
+        ciclos: [
+            {
+                tipo: "Verano Matematica",
+            },
+            {
+                tipo: "Verano Lenguaje",
             },
         ]
     },

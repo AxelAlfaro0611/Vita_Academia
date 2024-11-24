@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 function fillCiclos(arreglo_ciclos) {
     arreglo_ciclos.forEach((element, index) => {
-        $("#ciclos-container .row").append(`
+        $(`#ciclos-container .row-${element.tipo==="publica"?"publicas":"ciclos"}`).append(`
             <div class="col-sm-6 col-md-6 col-lg-3 p-2 p-md-4 text-center">
                 <img src="/img/ciclos/${element.universidades[0]}.png" alt="UNMSM" height="100" class="my-2">
                 <h4 class="bg-${element.universidades[0]} text-white py-1 my-0">
@@ -27,5 +27,6 @@ function fillCiclos(arreglo_ciclos) {
                 </div>
             </div>
         `)
+        
     });
 }

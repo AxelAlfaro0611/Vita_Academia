@@ -10,6 +10,8 @@
     --unfv: rgb(242, 111, 41);
     --uni: rgb(128, 4, 4);
     --unalm: rgb(68, 143, 92);
+    --particulares: rgb(12, 38, 93);
+    --escolares: rgb(127, 211, 247);
 }
 
 .bg-main {
@@ -40,6 +42,12 @@
 }
 .bg-unalm {
     background-color: var(--unalm);
+}
+.bg-particulares {
+    background-color: var(--particulares);
+}
+.bg-escolares {
+    background-color: var(--escolares);
 }
 
 
