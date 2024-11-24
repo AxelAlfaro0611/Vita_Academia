@@ -74,8 +74,8 @@ const arreglo_ciclos = [
     },
     {
         universidades: [
+            "uni",
             "unac",
-            "uni"
         ],
         ciclos: [
             {
