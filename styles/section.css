@@ -39,3 +39,15 @@
 #about {
     text-align: justify;
 }
+
+.ciclos-col a {
+    transition: all ease-in-out .2s;
+    width: 100%;
+    text-align: start;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}
+
+.ciclos-col a:hover {
+    background-color: var(--second-soft);
+}
