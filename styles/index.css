@@ -1,11 +1,10 @@
 :root {
-    /* --main: #056f05; */
     --main: rgb(48, 56, 95);
     --main-hover: rgb(41, 46, 77);
-    /* --second: #ffff5c; */
     --second: rgb(5, 208, 222);
-    /* --second-soft: #ffffe2; */
     --second-soft: rgb(206, 252, 255);
+    --green: rgb(109, 190, 59);
+    --green-soft: rgb(147, 231, 94);
 
     --unmsm: rgb(245, 181, 2);
     --unfv: rgb(242, 111, 41);
@@ -21,6 +20,12 @@
 }
 .bg-second-soft {
     background-color: var(--second-soft);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-green-soft {
+    background-color: var(--green-soft);
 }
 
 
@@ -48,6 +53,18 @@
 .btn-main{
     background-color: var(--main);
     color: var(--second);
+    font-weight: bold;
+    padding: .5rem 3rem;
+}
+.btn-second{
+    background-color: var(--second);
+    color: white;
+    font-weight: bold;
+    padding: .5rem 3rem;
+}
+.btn-green{
+    background-color: var(--green);
+    color: white;
     font-weight: bold;
     padding: .5rem 3rem;
 }

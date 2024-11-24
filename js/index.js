@@ -8,17 +8,17 @@ $(document).ready(function () {
     }
 });
 
-function fillCarousel(carousel) {
-    carousel.forEach((slider, index) => {
+function fillCarousel() {
+    for (let i = 0; i < 4; i++) {
         $("#carousel .carousel-indicators").append(`
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="${index}" class="${index===0?'active':''}" aria-current="${index===0}" aria-label="Slide ${index+1}"></button>            
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="${i}" class="${i===0?'active':''}" aria-current="${i===0}" aria-label="Slide ${i+1}"></button>            
         `)
         $("#carousel .carousel-inner").append(`
-            <div class="carousel-item ${index===0 ? 'active' : ''}">
-                <img src="/img/carousel/${slider.img}.png" class="d-block w-100" alt="${slider.title}">
+            <div class="carousel-item ${i===0 ? 'active' : ''}">
+                <img src="/img/carousel/slide${i+1}.jpg" class="d-block w-100" alt="slide${i+1}">
             </div>    
         `)
-    });
+    }
 }
 
 function fillServicios(servicios) {
