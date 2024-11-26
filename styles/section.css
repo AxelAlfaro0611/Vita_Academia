@@ -50,3 +50,8 @@
 .ciclos-col a:hover {
     background-color: rgb(230, 230, 230);
 }
+
+.conocenos-h2 {
+    font-size: 60px;
+    text-wrap: wrap;
+}
