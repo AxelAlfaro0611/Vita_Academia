@@ -81,3 +81,8 @@
 .mapa-contacto {
     aspect-ratio: 1/1;
 }
+
+.horarios-ciclo td {
+    padding: .5rem;
+    vertical-align:text-top;
+}
