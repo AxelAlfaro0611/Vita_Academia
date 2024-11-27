@@ -77,3 +77,7 @@
 #horarios {
     font-family: "Anton", sans-serif;
 }
+
+.mapa-contacto {
+    aspect-ratio: 1/1;
+}
