@@ -5,6 +5,7 @@
     --second-soft: rgb(206, 252, 255);
     --green: rgb(109, 190, 59);
     --green-soft: rgb(147, 231, 94);
+    --pink: rgb(254, 45, 117);
 
     --unmsm: rgb(245, 181, 2);
     --unfv: rgb(242, 111, 41);
@@ -29,7 +30,9 @@
 .bg-green-soft {
     background-color: var(--green-soft);
 }
-
+.bg-pink {
+    background-color: var(--pink);
+}
 
 .bg-unmsm {
     background-color: var(--unmsm);
@@ -56,6 +59,9 @@
 }
 .txt-second, .link-second, .link-second:hover {
     color: var(--second);
+}
+.txt-green {
+    color: var(--green);
 }
 
 .btn-main{
