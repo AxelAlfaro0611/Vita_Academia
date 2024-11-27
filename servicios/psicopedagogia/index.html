@@ -27,19 +27,19 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 gap-4 d-flex justify-content-end">
                   <li class="nav-item">
-                    <a class="nav-link link-main" href="/">Inicio</a>
+                    <a class="nav-link link-main"  href="/">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link link-main link-active" aria-current="page" href="/ciclos">Ciclos</a>
+                    <a class="nav-link link-main" href="/ciclos">Ciclos</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link link-main dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Servicios
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="/servicios/aula-virtual">Aula virtual</a></li>
+                      <li><a class="dropdown-item" href="/">Aula virtual</a></li>
                       <li><a class="dropdown-item" href="/servicios/biblioteca">Biblioteca</a></li>
-                      <li><a class="dropdown-item" href="/servicios/psicopedagogia">Psicopedagogía</a></li>
+                      <li><a class="dropdown-item link-active" href="/servicios/psicopedagogia" aria-current="page">Psicopedagogía</a></li>
                       <li><a class="dropdown-item" href="/servicios/pizarra-interactiva">Pizarra interactiva</a></li>
                     </ul>
                   </li>
@@ -55,24 +55,23 @@
         </nav>
     </header>
     <main>
-        <section id="ciclos-container">
-            <div class="container-fluid p-2 p-md-5">
-                <h2 class="txt-main">
-                    Nuestros ciclos 
-                </h2>
-                <h4 class="txt-second">Elige tu ciclo de preparación preuniversitaria</h4>
-                <div class="row row-publicas">
-                  <h3 class="text-center mt-3">Universidades Públicas</h3>
-                  
-                </div>
-                <div class="row row-ciclos">
-                  <h3 class="text-center mt-3">Otros ciclos</h3>
-
-                </div>
+        <section>
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-6 col-lg-8">
+                <h2 class="txt-second text-uppercase mb-2">Psicopedagogía</h2>
+                <p class="py-1">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem eligendi iure, enim culpa commodi recusandae aliquid, sed fuga tempora voluptas ducimus voluptate? Illo molestias officiis exercitationem culpa omnis, rerum perferendis, atque beatae eaque dolorem cupiditate?
+                </p>
+                <p class="py-1">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem eligendi iure, enim culpa commodi recusandae aliquid, sed fuga tempora voluptas ducimus voluptate? Illo molestias officiis exercitationem culpa omnis, rerum perferendis, atque beatae eaque dolorem cupiditate?
+                </p>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <img src="/img/services/psicopedagogia.png" alt="psicopedagogia.png" class="w-100 rounded-circle">
+              </div>
             </div>
-        </section>
-        <section class="d-none" id="ciclo-info-container">
-
+          </div>
         </section>
         <section class="position-fixed bg-main d-flex flex-column gap-2 py-2 px-3 rounded-start" style="right: 0; bottom: 25%;">
           <a href="#" class="link-second fs-3">
@@ -137,6 +136,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="/js/data.js"></script>
-    <script src="/js/ciclos.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 </html>

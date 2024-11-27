@@ -9,16 +9,20 @@ const carousel = [
 
 const servicios = [
     {
+        title: 'aula_virtual',
+        link: '/'
+    },
+    {
         title: 'biblioteca',
+        link: '/servicios/biblioteca'
+    },
+    {
+        title: 'psicopedagogia',
+        link: '/servicios/psicopedagogia'
     },
     {
         title: 'pizarra_interactiva',
-    },
-    {
-        title: 'aula_virtual',
-    },
-    {
-        title: 'aula_virtual',
+        link: '/servicios/pizarra-interactiva'
     },
 ]
 
@@ -62,9 +66,31 @@ const arreglo_ciclos = [
         ciclos: [
             {
                 tipo: "verano",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
             {
                 tipo: "repaso",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
         ]
     },
@@ -76,9 +102,31 @@ const arreglo_ciclos = [
         ciclos: [
             {
                 tipo: "verano",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
             {
                 tipo: "repaso",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
         ]
     },
@@ -91,9 +139,31 @@ const arreglo_ciclos = [
         ciclos: [
             {
                 tipo: "verano",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
             {
                 tipo: "repaso",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
         ]
     },
@@ -105,9 +175,31 @@ const arreglo_ciclos = [
         ciclos: [
             {
                 tipo: "verano",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
             {
                 tipo: "repaso",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
         ]
     },
@@ -119,9 +211,31 @@ const arreglo_ciclos = [
         ciclos: [
             {
                 tipo: "Verano PUCP",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
             {
                 tipo: "Repaso PUCP",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
         ]
     },
@@ -133,9 +247,31 @@ const arreglo_ciclos = [
         ciclos: [
             {
                 tipo: "Verano Matematica",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
             {
                 tipo: "Verano Lenguaje",
+                text: `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni ad, assumenda amet tempora quam earum quidem dolorem! Optio dolorum non at earum natus soluta ut nobis consectetur consequatur alias eaque, itaque minus doloribus. Explicabo, odio voluptates laudantium vero molestiae numquam quaerat impedit ipsum dignissimos praesentium quidem dicta! Similique, obcaecati. Iste, inventore aliquid delectus dolores voluptatum officiis error! Labore, incidunt.
+                `,
+                inicio: '02 de Enero del 2025',
+                modalidad: 'Prescencial',
+                duracion: '9 semanas',
+                horarios: {
+                    'mañana' : '08:00am - 13:00pm',
+                    'tarde' : '08:00am - 13:00pm',
+                    'noche' : '08:00am - 13:00pm',
+                }
             },
         ]
     },
