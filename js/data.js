@@ -14,15 +14,15 @@ const servicios = [
     },
     {
         title: 'biblioteca',
-        link: './servicios/biblioteca'
+        link: './servicios/biblioteca/index.html'
     },
     {
         title: 'psicopedagogia',
-        link: './servicios/psicopedagogia'
+        link: './servicios/psicopedagogia/index.html'
     },
     {
         title: 'pizarra_interactiva',
-        link: './servicios/pizarra-interactiva'
+        link: './servicios/pizarra-interactiva/index.html'
     },
 ]
 
