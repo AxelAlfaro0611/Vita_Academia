@@ -74,9 +74,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
             {
@@ -89,9 +89,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
         ]
@@ -112,9 +112,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
             {
@@ -127,9 +127,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
         ]
@@ -151,9 +151,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
             {
@@ -166,9 +166,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
         ]
@@ -189,9 +189,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
             {
@@ -204,9 +204,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
         ]
@@ -227,9 +227,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
             {
@@ -242,9 +242,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
         ]
@@ -265,9 +265,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
             {
@@ -280,9 +280,9 @@ const arreglo_ciclos = [
                 duracion: '9 semanas',
                 'dias': 'Lunes a Sábados',
                 horarios: {
-                    'mañana' : '08:00am - 13:00pm',
-                    'tarde' : '08:00am - 13:00pm',
-                    'noche' : '08:00am - 13:00pm',
+                    mañana : "08:00am - 13:00pm",
+                    tarde : "08:00am - 13:00pm",
+                    noche : "08:00am - 13:00pm",
                 }
             },
         ]

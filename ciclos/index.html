@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-white px-5 py-3">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="../index.html">
                 <img src="../img/logo.jpeg" height="50" alt="ADACEMIA VITA">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
                       Servicios
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../servicios/aula-virtual/index.html">Aula virtual</a></li>
+                      <li><a class="dropdown-item" href="#">Aula virtual</a></li>
                       <li><a class="dropdown-item" href="../servicios/biblioteca/index.html">Biblioteca</a></li>
                       <li><a class="dropdown-item" href="../servicios/psicopedagogia/index.html">Psicopedagogía</a></li>
                       <li><a class="dropdown-item" href="../servicios/pizarra-interactiva/index.html">Pizarra interactiva</a></li>
@@ -55,7 +55,7 @@
         </nav>
     </header>
     <main>
-        <section id="ciclos-container">
+        <section class="d-block" id="ciclos-container">
             <div class="container-fluid p-2 p-md-5">
                 <h2 class="txt-main">
                     Nuestros ciclos 
@@ -75,8 +75,11 @@
           <div class="container py-5">
             <div class="row">
               <div class="col-md-6 col-lg-8">
+                <button class="txt-main fs-4 btn p-0 m-0" id="btn-back">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
                 <h2 class="txt-main">
-                  Ciclo <span id="nombre-ciclo">VERANO SAN MARCOS</span>
+                  Ciclo <span class="text-uppercase" id="nombre-ciclo">VERANO SAN MARCOS</span>
                 </h2>
                 <p class="py-1" id="texto-ciclo">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit culpa vel officiis ab, id temporibus aperiam, illum impedit incidunt labore error explicabo. A animi deserunt voluptatum vel, consequuntur, quasi ipsam porro suscipit dignissimos enim sunt numquam iste, voluptates beatae ratione accusamus id. Sapiente quae hic exercitationem iste fugit suscipit inventore excepturi architecto aut porro laboriosam doloremque quos aliquam consequatur, optio necessitatibus! Asperiores obcaecati quidem adipisci doloribus recusandae ab ipsa incidunt officia, quas laudantium corporis tenetur quibusdam dolores ad veniam iste delectus nihil labore dolorem quis. Natus magni voluptate corrupti dolorum? Optio velit nisi a explicabo neque quos corrupti rerum commodi?
@@ -110,7 +113,7 @@
                 </table>
               </div>
               <div class="col-md-6 col-lg-4">
-                <img src="../img/ciclos/unmsm.png" class="w-100" alt="UNMSM">
+                <img id="img-ciclo" src="../img/ciclos/unmsm.png" class="w-100" alt="UNMSM">
               </div>
             </div>
             <div class="row">
