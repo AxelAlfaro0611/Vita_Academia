@@ -138,7 +138,6 @@ const arreglo_ciclos = [
         tipo: 'publica',
         universidades: [
             "uni",
-            "unac",
         ],
         ciclos: [
             {
