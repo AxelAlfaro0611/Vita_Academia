@@ -4,7 +4,7 @@ $(document).ready(function () {
     }
 
     $(document).on("click", ".link-ciclo", function (e) {
-        e.preventDefault();
+        // e.preventDefault();
         $("#ciclos-container").addClass("d-none").removeClass("d-block");
         $("#ciclo-info-container").removeClass("d-none").addClass("d-block");
 
