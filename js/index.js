@@ -14,7 +14,7 @@ function fillCarousel() {
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="${i}" class="${i===0?'active':''}" aria-current="${i===0}" aria-label="Slide ${i+1}"></button>            
         `)
         $("#carousel .carousel-inner").append(`
-            <div class="carousel-item ${i===0 ? 'active' : ''}">
+            <div class="carousel-item ${i===0 ? 'active' : ''}" data-bs-interval="5000">
                 <img src="./img/carousel/slide${i+1}.jpg" class="d-block w-100" alt="slide${i+1}">
             </div>    
         `)
