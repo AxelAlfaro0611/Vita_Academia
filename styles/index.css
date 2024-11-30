@@ -57,11 +57,15 @@
 .txt-main, .link-main, .link-main:hover {
     color: var(--main);
 }
-.txt-second, .link-second, .link-second:hover {
+.txt-second, .link-second {
     color: var(--second);
 }
 .txt-green {
     color: var(--green);
+}
+
+.link-second:hover {
+    color: var(--second-soft);
 }
 
 .btn-main{

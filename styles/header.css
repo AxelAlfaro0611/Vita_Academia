@@ -4,8 +4,11 @@
     transition: all ease-in-out .1s;
     border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
-.navbar-nav a:hover, .navbar-nav a.link-active {
+#nav-main a:hover, #nav-main a.link-active {
     border-bottom: 1px solid var(--main);
+}
+#nav-second a:hover, #nav-second a.link-active {
+    color: var(--second-soft);
 }
 
 header {

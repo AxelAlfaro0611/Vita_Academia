@@ -39,7 +39,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-white px-5 py-3">
+        <nav id="nav-main" class="navbar navbar-expand-lg bg-white px-5 py-3">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="./img/logo.jpeg" height="50" alt="ADACEMIA VITA">
@@ -76,12 +76,12 @@
               </div>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-lg d-none d-lg-block bg-main px-5 py-1">
+        <nav id="nav-second" class="navbar navbar-expand-lg d-none d-lg-block bg-main px-5 py-1">
           <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 gap-4 d-flex justify-content-start">
                 <li class="nav-item">
-                  <a class="nav-link link-second" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link link-second link-active" aria-current="page" href="#carousel-container">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link link-second" href="#servicios-container">Servicios</a>
@@ -161,7 +161,7 @@
             </div>
           </div>
         </section>
-        <section class="position-fixed bg-main d-flex flex-column gap-2 py-2 px-3 rounded-start" style="right: 0; bottom: 25%;">
+        <div class="position-fixed bg-main d-flex flex-column gap-2 py-2 px-3 rounded-start" style="right: 0; bottom: 25%;">
           <a target="_blank" href="https://www.facebook.com/profile.php?id=61566424687958" class="link-second fs-3">
             <i class="fa-brands fa-facebook"></i>
           </a>
@@ -174,8 +174,8 @@
           <a target="_blank" href="https://www.tiktok.com/@vitaacademia" class="link-second fs-3">
             <i class="fa-brands fa-tiktok"></i>
           </a>
-        </section>
-        <section class="position-fixed bottom-0 end-0 m-4 d-none d-lg-block">
+        </div>
+        <div class="position-fixed bottom-0 end-0 m-4 d-none d-lg-block">
           <div class="bg-green rounded-pill py-2 px-4">
             <a target="_blank" href="https://wa.me/51908935924" class="link-main text-decoration-none d-flex justify-content-center align-items-center gap-2">
               <i class="fa-brands fa-whatsapp fs-1 fw-bold"></i>
@@ -185,7 +185,7 @@
               </div>
             </a>
           </div>
-        </section>
+        </div>
     </main>
     <footer id="contacto" class="bg-main p-2 p-md-5">
         <div class="container px-3 px-md-5">

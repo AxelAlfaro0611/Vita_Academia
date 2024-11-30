@@ -6,6 +6,29 @@ $(document).ready(function () {
     if ($("#servicios-container")) {
         fillServicios(servicios)
     }
+
+    const sections = document.querySelectorAll("section"); // Asume que tus secciones son <section>
+    const navLinks = document.querySelectorAll("#nav-second .nav-link");
+    window.addEventListener("scroll", () => {
+        let currentSection = "";
+        let sectionsCurrent = [];
+
+        sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+
+            if (window.scrollY >= sectionTop - sectionHeight / 3) {
+                currentSection = section.getAttribute("id");
+                console.log(currentSection)
+            } 
+        });
+        navLinks.forEach((link) => {
+            $(link).removeClass('link-active')
+            if ((link.getAttribute("href")) === "#"+currentSection) {
+                $(link).addClass("link-active");
+            }
+        });
+    });
 });
 
 function fillCarousel() {
