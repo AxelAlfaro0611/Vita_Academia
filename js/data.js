@@ -10,7 +10,7 @@ const carousel = [
 const servicios = [
     {
         title: 'aula_virtual',
-        link: '#'
+        link: '#servicsios'
     },
     {
         title: 'biblioteca',
