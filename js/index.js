@@ -19,7 +19,6 @@ $(document).ready(function () {
 
             if (window.scrollY >= sectionTop - sectionHeight / 3) {
                 currentSection = section.getAttribute("id");
-                console.log(currentSection)
             } 
         });
         navLinks.forEach((link) => {
