@@ -51,7 +51,7 @@ function fillCiclos(ciclos) {
                         <h3 class="txt-second">Duracion y Horarios</h3>
                         <ul>
                             ${ciclo.duracion.map(d => {
-                                return `<li>${d}</li>`  
+                                return `<li>${d}</li>`   
                             }).toString().replace(/,/g, ' ')}
                         </ul>
                     </div>
