@@ -54,9 +54,65 @@
               </div>
             </div>
         </nav>
+        <nav id="nav-second" class="navbar navbar-expand-lg d-none d-lg-block bg-main px-5 py-1">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 gap-4 d-flex justify-content-start">
+                <li class="nav-item">
+                  <a class="nav-link link-second link-active" aria-current="page" href="#inicio-container">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-second" href="#escolar-container">Ciclo escolar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-second" href="#verano-container">Ciclo verano</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-second" href="#repaso-container">Ciclo repaso intensivo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-second" href="#anual-container">Ciclo anual</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-second" href="#semestral-container">Ciclo semestral</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
     </header>
     <main>
-        <section class="d-block" id="ciclos-container">
+      <section class="container-fluid" id="inicio-container">
+        <img src="../img/Ciclos.jpg" alt="Ciclos" class="img-fluid">
+      </section>
+
+      <section id="escolar-container">
+        <div class="container">
+          <div class="row">
+            <h2 class="txt-main">Ciclo Escolar</h2>
+            <div class="my-1">
+              <h3 class="txt-second">Objetivo</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique repellat illo amet, accusamus rem voluptatum debitis voluptate eum repellendus omnis provident facere illum hic maiores velit quis optio consequuntur consectetur fuga possimus dolorem eos perferendis! Unde natus ullam quod alias.</p>
+            </div>
+            <div class="my-1">
+              <h3 class="txt-second">Caracteristicas</h3>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur iste accusamus voluptatibus! Rem, at?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur iste accusamus voluptatibus! Rem, at?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur iste accusamus voluptatibus! Rem, at?</li>
+              </ul>
+            </div>
+            <div class="my-1">
+              <h3 class="txt-second">Duracion y Horarios</h3>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur iste accusamus voluptatibus! Rem, at?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur iste accusamus voluptatibus! Rem, at?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- <section class="d-block" id="ciclos-container">
             <div class="container-fluid p-2 p-md-5">
                 <h2 class="txt-main">
                     Nuestros ciclos 
@@ -104,9 +160,6 @@
                       <td>
                         <p class="p-0 m-0"><u><span id="dias-ciclos"></span></u></p>
                         <ul class="m-0 p-0" style="list-style: none;" id="horarios-ciclo">
-                          <!-- <li><em>Mañana: </em>08:00am - 13:00pm</li>
-                          <li><em>Tarde: </em>08:00am - 13:00pm</li>
-                          <li><em>Noche: </em>08:00am - 13:00pm</li> -->
                         </ul>
                       </td>
                     </tr>
@@ -140,7 +193,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
         <section class="position-fixed bg-main d-flex flex-column gap-2 py-2 px-3 rounded-start" style="right: 0; bottom: 25%;">
           <a target="_blank" href="https://www.facebook.com/profile.php?id=61566424687958" class="link-second fs-3">
             <i class="fa-brands fa-facebook"></i>
@@ -155,17 +208,17 @@
             <i class="fa-brands fa-tiktok"></i>
           </a>
         </section>
-        <section class="position-fixed bottom-0 end-0 m-4 d-none d-lg-block">
-          <div class="bg-green rounded-pill py-2 px-4">
+        <div class="position-fixed bottom-0 mb-5 mb-md-4 pb-3 pb-md-0 end-0 m-4">
+          <div class="bg-green rounded-pill py-2 px-2">
             <a target="_blank" href="https://wa.me/51908935924" class="link-main text-decoration-none d-flex justify-content-center align-items-center gap-2">
               <i class="fa-brands fa-whatsapp fs-1 fw-bold"></i>
-              <div class="">
+              <div class="d-none d-md-block">
                 <p class="p-0 m-0">Solicita más información</p>
                 <p class="fw-bold p-0 m-0">¡Últimas vacantes!</p>
               </div>
             </a>
           </div>
-        </section>
+        </div>
     </main>
     <footer class="bg-main p-2 p-md-5">
       <div class="container px-3 px-md-5">

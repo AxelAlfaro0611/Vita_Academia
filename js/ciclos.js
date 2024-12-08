@@ -1,31 +1,33 @@
 $(document).ready(function () {
-    if ($("#ciclos-container")) {
-        fillCiclos(arreglo_ciclos)
-    }
+    
+    
+    // if ($("#ciclos-container")) {
+    //     fillCiclos(arreglo_ciclos)
+    // }
 
-    $(document).on("click", ".link-ciclo", function (e) {
-        // e.preventDefault();
-        $("#ciclos-container").addClass("d-none").removeClass("d-block");
-        $("#ciclo-info-container").removeClass("d-none").addClass("d-block");
+    // $(document).on("click", ".link-ciclo", function (e) {
+    //     // e.preventDefault();
+    //     $("#ciclos-container").addClass("d-none").removeClass("d-block");
+    //     $("#ciclo-info-container").removeClass("d-none").addClass("d-block");
 
-        $("#nombre-ciclo").text(`${$(this).data("tipo")} ${universidades[$(this).data("universidad")][0]}`);
-        $("#texto-ciclo").text($(this).data("text"));
-        $("#inicio-ciclo").text($(this).data("inicio"));
-        $("#modalidad-ciclo").text($(this).data("modalidad"));
-        $("#duracion-ciclo").text($(this).data("duracion"));
-        const horarios = (JSON.parse(decodeURIComponent($(this).data("horarios"))));
-        let txt = ""
-        Object.keys(horarios).forEach(key => {
-            txt += `<li><em class="text-capitalize">${key}: </em>${horarios[key]}</li>`
-        })
-        $("#horarios-ciclo").html(txt);
-        $("#img-ciclo").attr("src", `../img/ciclos/${$(this).data("universidad")}.png`)
-    })
+    //     $("#nombre-ciclo").text(`${$(this).data("tipo")} ${universidades[$(this).data("universidad")][0]}`);
+    //     $("#texto-ciclo").text($(this).data("text"));
+    //     $("#inicio-ciclo").text($(this).data("inicio"));
+    //     $("#modalidad-ciclo").text($(this).data("modalidad"));
+    //     $("#duracion-ciclo").text($(this).data("duracion"));
+    //     const horarios = (JSON.parse(decodeURIComponent($(this).data("horarios"))));
+    //     let txt = ""
+    //     Object.keys(horarios).forEach(key => {
+    //         txt += `<li><em class="text-capitalize">${key}: </em>${horarios[key]}</li>`
+    //     })
+    //     $("#horarios-ciclo").html(txt);
+    //     $("#img-ciclo").attr("src", `../img/ciclos/${$(this).data("universidad")}.png`)
+    // })
 
-    $("#btn-back").click(function () {
-        $("#ciclo-info-container").addClass("d-none").removeClass("d-block");
-        $("#ciclos-container").removeClass("d-none").addClass("d-block");
-    })
+    // $("#btn-back").click(function () {
+    //     $("#ciclo-info-container").addClass("d-none").removeClass("d-block");
+    //     $("#ciclos-container").removeClass("d-none").addClass("d-block");
+    // })
 });
 
 function fillCiclos(arreglo_ciclos) {
