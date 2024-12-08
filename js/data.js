@@ -9,20 +9,21 @@ const carousel = [
 
 const servicios = [
     {
-        title: 'aula_virtual',
-        link: '#servicsios'
+        title: 'pizarra_interactiva',
+        link: './servicios/pizarra-interactiva/index.html'
     },
+    
     {
-        title: 'biblioteca',
-        link: './servicios/biblioteca/index.html'
+        title: 'tutoría personalizada',
+        link: './servicios/tutoría/index.html'
     },
     {
         title: 'psicopedagogia',
         link: './servicios/psicopedagogia/index.html'
     },
     {
-        title: 'pizarra_interactiva',
-        link: './servicios/pizarra-interactiva/index.html'
+        title: 'aula_virtual',
+        link: '#servicsios'
     },
 ]
 
