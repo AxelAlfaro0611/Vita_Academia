@@ -57,7 +57,7 @@ function fillCiclos(ciclos) {
                     </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-xl-4">
-                        <img src="../img/ciclos/${ciclo.id}.jpeg" alt="Ciclo ${ciclo.id}" class="img-fluid">
+                        <img src="../img/ciclos/${ciclo.id.toLowerCase()}.jpeg" alt="Ciclo ${ciclo.id}" class="img-fluid">
                     </div>
                     
                 </div>
