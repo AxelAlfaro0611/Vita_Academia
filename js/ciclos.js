@@ -1,6 +1,28 @@
 $(document).ready(function () {
     
-    fillCiclos(ciclos)
+    fillCiclos(ciclos);
+
+    const sections = document.querySelectorAll("section"); // Asume que tus secciones son <section>
+    const navLinks = document.querySelectorAll("#nav-second .nav-link");
+    window.addEventListener("scroll", () => {
+        let currentSection = "";
+        let sectionsCurrent = [];
+
+        sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+
+            if (window.scrollY >= sectionTop - sectionHeight / 3) {
+                currentSection = section.getAttribute("id");
+            } 
+        });
+        navLinks.forEach((link) => {
+            $(link).removeClass('link-active')
+            if ((link.getAttribute("href")) === "#"+currentSection) {
+                $(link).addClass("link-active");
+            }
+        });
+    });
 
     // $(document).on("click", ".link-ciclo", function (e) {
     //     // e.preventDefault();
@@ -32,29 +54,31 @@ function fillCiclos(ciclos) {
         $("main").append(`
            <section id="${ciclo.id}-container">
                 <div class="container">
-                <div class="row">
-                    <h2 class="txt-main">${ciclo.titulo}</h2>
-                    <div class="col-sm-12 col-md-6 col-xl-8">
-                    <div class="my-1">
-                        <h3 class="txt-second">Objetivo</h3>
-                        <p>${ciclo.objetivo}</p>
-                    </div>
-                    <div class="my-1">
-                        <h3 class="txt-second">Caracteristicas</h3>
-                        <ul>
-                            ${ciclo.caracteristicas.map(c => {
-                             return `<li>${c}</li>`  
-                            }).toString().replace(/,/g, ' ')}
-                        </ul>
-                    </div>
-                    <div class="my-1">
-                        <h3 class="txt-second">Duracion y Horarios</h3>
-                        <ul>
-                            ${ciclo.duracion.map(d => {
-                                return `<li>${d}</li>`   
-                            }).toString().replace(/,/g, ' ')}
-                        </ul>
-                    </div>
+                <div class="row pt-5">
+                <div class="pt-5 mt-5">
+                    <h2 class="text-white bg-main py-1 px-2" style="width: fit-content">${ciclo.titulo}</h2>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-8 flex-column d-flex justify-content-center">
+                        <div class="my-1">
+                            <h3 class="txt-second">Objetivo</h3>
+                            <p>${ciclo.objetivo}</p>
+                        </div>
+                        <div class="my-1">
+                            <h3 class="txt-second">Caracteristicas</h3>
+                            <ul>
+                                ${ciclo.caracteristicas.map(c => {
+                                return `<li>${c}</li>`  
+                                }).toString().replace(/,/g, ' ')}
+                            </ul>
+                        </div>
+                        <div class="my-1">
+                            <h3 class="txt-second">Duracion y Horarios</h3>
+                            <ul>
+                                ${ciclo.duracion.map(d => {
+                                    return `<li>${d}</li>`   
+                                }).toString().replace(/,/g, ' ')}
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-xl-4">
                         <img src="../img/ciclos/${ciclo.id.toLowerCase()}.jpeg" alt="Ciclo ${ciclo.id}" class="img-fluid">
