@@ -1,9 +1,6 @@
 $(document).ready(function () {
     
-    
-    // if ($("#ciclos-container")) {
-    //     fillCiclos(arreglo_ciclos)
-    // }
+    fillCiclos(ciclos)
 
     // $(document).on("click", ".link-ciclo", function (e) {
     //     // e.preventDefault();
@@ -30,8 +27,45 @@ $(document).ready(function () {
     // })
 });
 
-function fillCiclos(arreglo_ciclos) {
-    arreglo_ciclos.forEach((element, index) => {
+function fillCiclos(ciclos) {
+    ciclos.forEach(ciclo => {
+        $("main").append(`
+           <section id="${ciclo.id}-container">
+                <div class="container">
+                <div class="row">
+                    <h2 class="txt-main">${ciclo.titulo}</h2>
+                    <div class="col-sm-12 col-md-6 col-xl-8">
+                    <div class="my-1">
+                        <h3 class="txt-second">Objetivo</h3>
+                        <p>${ciclo.objetivo}</p>
+                    </div>
+                    <div class="my-1">
+                        <h3 class="txt-second">Caracteristicas</h3>
+                        <ul>
+                            ${ciclo.caracteristicas.map(c => {
+                             return `<li>${c}</li>`  
+                            }).toString().replace(/,/g, ' ')}
+                        </ul>
+                    </div>
+                    <div class="my-1">
+                        <h3 class="txt-second">Duracion y Horarios</h3>
+                        <ul>
+                            ${ciclo.duracion.map(d => {
+                                return `<li>${d}</li>`  
+                            }).toString().replace(/,/g, ' ')}
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <img src="../img/ciclos/${ciclo.id}.jpeg" alt="Ciclo ${ciclo.id}" class="img-fluid">
+                    </div>
+                    
+                </div>
+                </div>
+            </section> 
+        `);
+    });
+    /* arreglo_ciclos.forEach((element, index) => {
         $(`#ciclos-container .row-${element.tipo==="publica"?"publicas":"ciclos"}`).append(`
             <div class="col-sm-6 col-md-6 col-lg-3 p-2 p-md-4 text-center">
                 <img src="../img/ciclos/${element.universidades[0]}.png" alt="UNMSM" height="100" class="my-2">
@@ -57,6 +91,6 @@ function fillCiclos(arreglo_ciclos) {
             </div>
         `)
         
-    });
+    }); */
 }
 
