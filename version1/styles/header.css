@@ -1,0 +1,25 @@
+.navbar-nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all ease-in-out .1s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+#nav-main a:hover, #nav-main a.link-active {
+    border-bottom: 1px solid var(--main);
+}
+#nav-second a:hover, #nav-second a.link-active {
+    color: var(--second-soft);
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0%;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}

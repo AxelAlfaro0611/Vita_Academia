@@ -1,0 +1,98 @@
+:root {
+    --main: rgb(48, 56, 95);
+    --main-hover: rgb(41, 46, 77);
+    --second: rgb(5, 208, 222);
+    --second-soft: rgb(206, 252, 255);
+    --green: rgb(109, 190, 59);
+    --green-soft: rgb(147, 231, 94);
+    --pink: rgb(254, 45, 117);
+
+    --unmsm: rgb(245, 181, 2);
+    --unfv: rgb(242, 111, 41);
+    --uni: rgb(128, 4, 4);
+    --unalm: rgb(68, 143, 92);
+    --particulares: rgb(12, 38, 93);
+    --escolares: rgb(127, 211, 247);
+}
+
+.bg-main {
+    background-color: var(--main);
+}
+.bg-second {
+    background-color: var(--second);
+}
+.bg-second-soft {
+    background-color: var(--second-soft);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-green-soft {
+    background-color: var(--green-soft);
+}
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-unmsm {
+    background-color: var(--unmsm);
+}
+.bg-unfv {
+    background-color: var(--unfv);
+}
+.bg-uni {
+    background-color: var(--uni);
+}
+.bg-unalm {
+    background-color: var(--unalm);
+}
+.bg-particulares {
+    background-color: var(--particulares);
+}
+.bg-escolares {
+    background-color: var(--escolares);
+}
+
+
+.txt-main, .link-main, .link-main:hover {
+    color: var(--main);
+}
+.txt-second, .link-second {
+    color: var(--second);
+}
+.txt-green {
+    color: var(--green);
+}
+
+.link-second:hover {
+    color: var(--second-soft);
+}
+
+.btn-main{
+    background-color: var(--main);
+    color: var(--second);
+    font-weight: bold;
+    padding: .5rem 3rem;
+}
+.btn-second{
+    background-color: var(--second);
+    color: white;
+    font-weight: bold;
+    padding: .5rem 3rem;
+}
+.btn-green{
+    background-color: var(--green);
+    color: white;
+    font-weight: bold;
+    padding: .5rem 3rem;
+}
+.btn-main:hover {
+    background-color: var(--main-hover);
+    color: var(--second);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

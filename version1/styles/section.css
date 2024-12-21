@@ -1,0 +1,88 @@
+
+.bg-img {
+    opacity: .6;
+    /* transform: translateY(-25%); */
+}
+
+#sede-container {
+    height: fit-content;
+}
+
+#sede-container .container-fluid {
+    background-color: rgba(5, 117, 222, 0.274);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#about h2 {
+    color: white;
+    background-color: var(--main);
+    width: fit-content;
+    padding: .5rem 1rem;
+    padding-right: 2rem;
+    position: relative;
+}
+.triangle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--main);
+    height: 70%;
+    aspect-ratio : 1 / 1;
+    transform: translateX(50%) translateY(25%) rotateZ(45deg);
+}
+
+#about {
+    text-align: justify;
+}
+
+.ciclos-col a {
+    transition: all ease-in-out .2s;
+    width: 100%;
+    text-align: start;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}
+
+.ciclos-col a:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.conocenos-h2 {
+    font-size: 60px;
+    text-wrap: wrap;
+}
+
+.astrociclo-head {
+    border-bottom: 2px solid white;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Anton", sans-serif;
+}
+
+.astrociclo-head h4 {
+    font-size: 80px;
+}
+.astrociclo-head h5 {
+    font-size: 30px;
+}
+
+.horarios-title {
+    font-size: 80px;
+}
+
+#horarios {
+    font-family: "Anton", sans-serif;
+}
+
+.mapa-contacto {
+    aspect-ratio: 1/1;
+}
+
+.horarios-ciclo td {
+    padding: .5rem;
+    vertical-align:text-top;
+}

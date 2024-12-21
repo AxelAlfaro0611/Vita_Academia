@@ -1,0 +1,16 @@
+
+/* XL */
+@media (max-width: 1200px) {
+    .conocenos-h2 {
+        font-size: 40px;
+    }
+    .horarios-title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .conocenos-h2 {
+        font-size: 30px;
+    }
+}
