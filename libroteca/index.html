@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Jaro:opsz@6..72&family=Lexend:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/section.css">
+  <link rel="stylesheet" href="../styles/responsive.css">
+  <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
+  <title>Academia Vita | Conócenos</title>
+</head>
+
+<body>
+  <header>
+    <nav id="nav-main" class="navbar navbar-expand-lg bg-white px-5 py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo.jpeg" height="50" alt="ADACEMIA VITA">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 gap-4 d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link link-main" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-main" href="../ciclos/index.html">Ciclos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link link-main dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../servicios/pizarra-interactiva/index.html">Pizarra interactiva</a>
+                </li>
+                <li><a class="dropdown-item" href="../servicios/tutoría-personalizada/index.html">Tutoría
+                    personalizada</a></li>
+                <li><a class="dropdown-item" href="../servicios/psicopedagogia/index.html">Psicopedagogía</a></li>
+                <li><a class="dropdown-item" href="#dsa">Aula virtual</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-main" href="../conocenos/index.html">Conócenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-main" href="../contactanos/index.html">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-main link-active" aria-current="page" href="#">Libroteca</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+      <div class="row w-100">
+        <h2 class="txt-green text-center mb-md-3 py-2">
+          LIBROTECA VITA
+        </h2>
+        <!-- Columna de botones a la izquierda (responsive) -->
+        <div class="col-12 col-md-2 d-flex flex-column gap-4 mt-4 mb-md-4">
+          <button class="btn btn-green">HISTORIA</button>
+          <button class="btn btn-green">CIENCIAS</button>
+          <button class="btn btn-green">INGLES</button>
+        </div>
+
+        <!-- Carrusel en el centro (responsive) -->
+        <div class="col-12 col-md-8 mt-4">
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/carousel/slide1.jpg" class="d-block w-100" alt="Imagen 1">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/carousel/slide2.jpg" class="d-block w-100" alt="Imagen 2">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/carousel/slide3.jpg" class="d-block w-100" alt="Imagen 3">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/carousel/slide4.jpg" class="d-block w-100" alt="Imagen 4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Columna de botones a la derecha (responsive) -->
+        <div class="col-12 col-md-2 d-flex flex-column gap-4 mb-4 mt-4 mb-md-4">
+          <button class="btn btn-green">LETRAS</button>
+          <button class="btn btn-green">NUMEROS</button>
+          <button class="btn btn-green">???</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-main p-2 p-md-5">
+    <div class="container px-3 px-md-5">
+      <div class="row">
+        <div class="col-sm-6 py-2">
+          <h2 class="txt-second mb-2">Contáctanos</h2>
+          <p class="text-white d-inline d-md-block">
+            Visítanos en:
+          </p>
+          <div class="justify-content-start align-items-center gap-3 flex-wrap d-inline-flex d-sm-flex px-3 px-sm-0">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61566424687958" class="link-second fs-3">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/academiavitaa/" class="link-second fs-3">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a target="_blank" href="https://www.tiktok.com/@academiavitaa" class="link-second fs-3">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a target="_blank" href="https://wa.me/51908935924" class="link-second fs-3">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 py-2">
+
+          <h2 class="txt-second mb-2">Informes</h2>
+          <p class="text-white">
+            Si deseas conocer información de nuestros ciclos o servicios comunícate a nuestro número.
+          </p>
+          <p class="text-white fw-bold">Teléfono: <span class="fw-normal fs-5">908 935 924 - 919 499 187</span></p>
+          <a href="../servicios/libro-reclamaciones/index.html" rel="nofollow" class="nav-link"><img width="100" src="../img/libro-reclamaciones-icon.png" alt="Libro de reclamaciones" title="Libro de reclamaciones"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="../js/data.js"></script>
+</body>
+
+</html>
